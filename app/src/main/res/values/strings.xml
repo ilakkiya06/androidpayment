@@ -8,6 +8,7 @@
     <string name="submit_payment">Submit Payment</string>
     <string name="place_holder">Place Holder</string>
     <string name="mm_yy">MM/YY</string>
+    <string name="full_name">Full name</string>
 
 
 </resources>
