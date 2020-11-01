@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+    <include
+        android:id="@+id/app_bar"
+
+        layout="@layout/toolbar_app"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l"
+        android:gravity="center"
+        android:layout_below="@+id/app_bar"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/iv"
+        android:textStyle="bold"
+        android:text="Card number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+
+        android:hint="Place Holder"
+        android:background="@drawable/rounded_corner_button"
+        android:id="@+id/et_num"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv"
+        android:padding="20dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="65dp"
+
+        android:layout_below="@+id/l"
+
+       >
+    <TextView
+        android:id="@+id/save_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Save card"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="190dp"
+        android:text=""
+        android:layout_below="@+id/c_num"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Payment"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/button"
+        android:layout_below="@+id/lv"/>
+</RelativeLayout>

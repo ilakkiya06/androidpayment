@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">androidpayment</string>
+    <string name="name">Payment</string>
+    <string name="expiration_date">Expiration Date</string>
+    <string name="card_number">Card number</string>
+    <string name="cvv">CVV</string>
+    <string name="save_card">Save card</string>
+    <string name="submit_payment">Submit Payment</string>
+    <string name="place_holder">Place Holder</string>
+    <string name="mm_yy">MM/YY</string>
+
+
+</resources>
