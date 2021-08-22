@@ -1,5 +1,5 @@
 package com.foodpanda.androidpayment
-
+//
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 //This calss for handling payment activies
