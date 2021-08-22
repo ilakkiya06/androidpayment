@@ -7,6 +7,8 @@ class Payment : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.custom_payment)
+//For payment
+//For payments
     }
 //adding comment for codes
 }
