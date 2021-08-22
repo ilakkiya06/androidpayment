@@ -8,4 +8,5 @@ class Payment : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.custom_payment)
     }
+//adding comment for codes
 }
